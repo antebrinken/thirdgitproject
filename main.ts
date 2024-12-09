@@ -32,5 +32,12 @@ for (let i = 0; i < myName.length; i++) {
 
 
 }
+const firstName = document.createElement("p");
+firstName.innerHTML="Madiha";
+const div = document.getElementById("app");
+if (app){
+  div?.appendChild(firstName);
+}
+
 
 
